@@ -14,7 +14,7 @@ xnode2=[1;0];
 xsad=[0;0];
 xnode=xnode1;
 
-Nphi=100;            % 环上划分精度
+Nphi=2000;            % 禄路脡脧禄庐路脰戮芦露脠
 phi=linspace(0,2*pi,Nphi);
 
 A=[1-3*xnode(1)^2-miu*xnode(2)^2, -2*miu*xnode(1)*xnode(2);-2*xnode(1)*xnode(2), -(1+xnode(1)^2)];
@@ -171,5 +171,5 @@ xva3=2*xva1.*(xva1.^2-1)+2*xva1.*xva2.^2;
 xva4=2*(xva1.^2+1).*xva2;
 xva5=0.5*(xva1.^2-1).^2+xva2.^2.*(xva1.^2+1);
 
-figure;
-plot(MPEP(:,1),MPEP(:,2));
+% figure;
+% plot(MPEP(:,1),MPEP(:,2));
