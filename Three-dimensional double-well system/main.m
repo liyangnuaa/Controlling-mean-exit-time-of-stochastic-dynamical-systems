@@ -28,8 +28,8 @@ rou=0.3;
 
 xnode=[-1;0;0];
 
-Nphi=100;            % 环上划分精度
-Ntheta=100;
+Nphi=400;            % 禄路脡脧禄庐路脰戮芦露脠
+Ntheta=400;
 phi=linspace(0,pi,Nphi);
 theta=linspace(0,2*pi,Ntheta);
 [PHI,THETA]=meshgrid(phi,theta);
